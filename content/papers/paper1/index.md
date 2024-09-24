@@ -1,18 +1,16 @@
 ---
-title: "Unusual Uses For Olive Oil" 
-date: 2013-01-15
-lastmod: 2024-07-12
-tags: ["philology","oleic science","history of oil","Mediterranean world"]
-author: ["Detlev Amadeus Unterholzer","Moritz-Maria von Igelfeld"]
+title: "Source-free Active Domain Adaptation for Diabetic Retinopathy Grading Based on Ultra-wide-field Fundus Images" 
+date: 2024-04-04
+author: ["Ran J, Zhang G, Xia F, et al"]
 description: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013." 
 summary: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil." 
 cover:
-    image: "paper1.png"
-    alt: "Some Uses For Olive Oil"
+    image: "flowchart.png"
+    alt: "Source-free Active Domain Adaptation for Diabetic Retinopathy Grading Based on Ultra-wide-field Fundus Images"
     relative: false
 editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Oleic Science"
+    URL: "https://www.sciencedirect.com/journal/computers-in-biology-and-medicine"
+    Text: "Computers in Biology and Medicine"
 
 ---
 
@@ -20,43 +18,43 @@ editPost:
 
 ##### Download
 
-+ [Paper](paper1.pdf)
-+ [Online appendix](appendix1.pdf)
-+ [Code and data](https://github.com/pmichaillat/feru)
++ [Paper](paper.pdf)
++ [Code and data](https://github.com/JinyeRAN/SFADA)
 
 ---
 
 ##### Abstract
 
-This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Domain adaptation (DA) is commonly employed in diabetic retinopathy (DR) grading using unannotated fundus images, allowing knowledge transfer from labeled color fundus images. Existing DAs often struggle with domain disparities, hindering DR grading performance compared to clinical diagnosis. A source-free active domain adaptation method (SFADA), which generates features of color fundus images by noise, selects valuable ultra- wide-field (UWF) fundus images through local representation matching, and adapts models using DR lesion prototypes, is proposed to upgrade DR diagnostic accuracy. Importantly, SFADA enhances data security and patient privacy by excluding source domain data. It reduces image resolution and boosts model training speed by modeling DR grade relationships directly. Experiments show SFADA significantly improves DR grading performance, increasing accuracy by 20.90% and quadratic weighted kappa by 18.63% over baseline, reaching 85.36% and 92.38%, respectively. This suggests SFADA’s promise for real clinical applications.
 
 ---
 
-##### Figure 6: Some Uses For Olive Oil
+##### Figure 1: The flowchart of the proposed source-free active domain adaptation
 
-![](paper1.png)
+![](flowchart.png)
+
+##### Figure 2: Visualization of source domain feature in the hyper-sphere
+
+![](SP.png)
+
+##### Figure 4: Visualization of the regions attended by the source pre-trained model in the source domain and the regions attended by the adapted model in the target domain
+
+![](LCC.png)
 
 ---
 
 ##### Citation
 
-Unterholzer, Detlev A., and  Moritz-Maria von Igelfeld. 2013. "Unusual Uses For Olive Oil." *Journal of Oleic Science* 34 (1): 449–489. http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil.
+Ran, Jinye, et al. "Source-free active domain adaptation for diabetic retinopathy grading based on ultra-wide-field fundus images." Computers in Biology and Medicine 174 (2024): 108418.
 
 ```BibTeX
-@article{UI13,
-author = {Detlev A. Unterholzer and Moritz-Maria von Igelfeld},
-year = {2013},
-title ={Unusual Uses For Olive Oil},
-journal = {Journal of Oleic Science},
-volume = {34},
-number = {1},
-pages = {449--489},
-url = {http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil}}
+@article{ran2024source,
+  title={Source-free active domain adaptation for diabetic retinopathy grading based on ultra-wide-field fundus images},
+  author={Ran, Jinye and Zhang, Guanghua and Xia, Fan and Zhang, Ximei and Xie, Juan and Zhang, Hao},
+  journal={Computers in Biology and Medicine},
+  volume={174},
+  pages={108418},
+  year={2024},
+  publisher={Elsevier}
+}
 ```
-
----
-
-##### Related material
-
-+ [Presentation slides](presentation1.pdf)
-+ [Summary of the paper](https://www.penguinrandomhouse.com/books/110403/unusual-uses-for-olive-oil-by-alexander-mccall-smith/)

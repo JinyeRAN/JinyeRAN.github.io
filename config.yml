@@ -29,7 +29,7 @@ menu:
 
 params:
     description: "I am a Professor of Philology at the Institute of Romance Philology in Regensburg, Germany. My research focuses mostly on Portuguese irregular verbs."
-    author: Moritz-Maria von Igelfeld
+    author: Jinye Ran
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -57,12 +57,11 @@ params:
           subtitle: "Hello! This is Jinye Ran. I have earned my Master’s degree in Computer Science and Technology from Southwest University and am applying to a PhD program. My research interests lie in the general area of machine learning, particularly in transfer learning and disentangled representation. I currently focus on applications in the continuous and unstructured data setting such as computer vision (e.g., feature disentanglement and domain adaptation) and healthcare (e.g., how to improve label efficiency and model interpretability).
 
 <br><br>
-Looking ahead, I aim to develop machine learning techniques that are more adaptable, efficient, and interpretable, applying my research to tackle real-world challenges in healthcare.
-"
+Looking ahead, I aim to develop machine learning techniques that are more adaptable, efficient, and interpretable, applying my research to tackle real-world challenges in healthcare."
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
-          imageTitle: Moritz-Maria von Igelfeld
+          imageTitle: Jinye Ran
           buttons:
             - name: Papers
               url: papers/
@@ -107,7 +106,7 @@ Looking ahead, I aim to develop machine learning techniques that are more adapta
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Jinye Ran"
       icon: favicon.ico
       iconHeight: 18
 
