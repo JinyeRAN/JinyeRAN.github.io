@@ -1,9 +1,9 @@
 ---
 title: "Lightweight Wavelet-Based Transformer for Image Super-Resolution" 
 date: 2022-11-11
-author: ["Jinye Ran", "Zili Zhang"]
-description: "This paper studies the pulmonary efficiency of sausage dogs. Published in the Journal of Canine Science, 2004." 
-summary: "This paper studies the pulmonary efficiency of sausage dogs through several experiments." 
+author: ["Jinye Ran and Zili Zhang"]
+description: "This paper investigates a lightweight vision Transformer for signal image super-resolution and, for the first time, incorporates stationary wavelet transform into the modeling process to enhance its performance. Published in PRICAI, 2022." 
+summary: "This paper investigates a lightweight vision Transformer for signal image super-resolution and, for the first time, incorporates stationary wavelet transform into the modeling process to enhance its performance. Published in PRICAI, 2022." 
 cover:
     image: "vis.jpg"
     alt: "Lightweight Wavelet-Based Transformer for Image Super-Resolution"

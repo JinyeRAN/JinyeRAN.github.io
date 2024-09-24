@@ -2,8 +2,8 @@
 title: "Source-free Active Domain Adaptation for Diabetic Retinopathy Grading Based on Ultra-wide-field Fundus Images" 
 date: 2024-04-04
 author: ["Ran J, Zhang G, Xia F, et al"]
-description: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013." 
-summary: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil." 
+description: "This paper proposes a novel source-free active domain adaptation approach, achieving state-of-the-art performance in addressing real-world domain adaptation challenges in medical imaging. Published in Computers in Biology and Medicine, 2024." 
+summary: "This paper proposes a novel source-free active domain adaptation approach, achieving state-of-the-art performance in addressing real-world domain adaptation challenges in medical imaging. Published in Computers in Biology and Medicine, 2024."
 cover:
     image: "flowchart.png"
     alt: "Source-free Active Domain Adaptation for Diabetic Retinopathy Grading Based on Ultra-wide-field Fundus Images"
