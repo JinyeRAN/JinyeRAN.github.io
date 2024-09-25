@@ -11,24 +11,21 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
-        - name: Papers
-          url: papers/
+        - name: CV
+          url: cv.pdf
+          weight: 1
+        - name: Research
+          url: research/
           weight: 2
-        - name: Courses
-          url: courses/
+        - name: Projects
+          url: projects/
           weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+        - name: Publications
+          url: publications/
+          weight: 4
 
 params:
-    description: "I am a Professor of Philology at the Institute of Romance Philology in Regensburg, Germany. My research focuses mostly on Portuguese irregular verbs."
+    description: "" # 需要填
     author: Jinye Ran
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -63,42 +60,26 @@ Looking ahead, I aim to develop machine learning techniques that are more adapta
           imageHeight: 160
           imageTitle: Jinye Ran
           buttons:
-            - name: Papers
-              url: papers/
-            - name: Courses
-              url: courses/
-            - name: Data
-              url: data/
-            - name: Books
-              url: books/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            - name: CV
+              url: cv.pdf
+            - name: Research
+              url: research
+            - name: Projects
+              url: projects/
+            - name: Publications
+              url: publications/
 
     socialIcons:
+        - name: Email
+          url: mailto:jinyeran47@gmail.com
         - name: CV
           url: cv.pdf
-        - name: Email
-          url: mailto:moritz.maria.von.igelfeld@gmail.com
-        - name: Zoom
-          url: https://www.zoom.us/my/igelfeld
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+        - name: Linkedin
+          url: https://www.linkedin.com/in/jinye-r-750b8632a/
         - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: Substack
-          url: https://pmichaillat.substack.com
-        - name: YouTube
-          url: https://www.youtube.com/@alexandermccallsmithoffici9000
-        - name: Twitter
-          url: https://twitter.com/McCallSmith
+          url: https://github.com/JinyeRAN
+
+
 
     assets:
         disableScrollBarStyle: true
