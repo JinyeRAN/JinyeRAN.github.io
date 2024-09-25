@@ -1,7 +1,7 @@
 ---
 title: "Source-free Active Domain Adaptation for Diabetic Retinopathy Grading Based on Ultra-wide-field Fundus Images" 
 date: 2024-04-04
-author: ["Ran J, Zhang G, Xia F, et al"]
+author: ["J Ran, G Zhang, F Xia, et al"]
 description: "This paper proposes a novel source-free active domain adaptation approach, achieving state-of-the-art performance in addressing real-world domain adaptation challenges in medical imaging. Published in Computers in Biology and Medicine, 2024." 
 summary: "This paper proposes a novel source-free active domain adaptation approach, achieving state-of-the-art performance in addressing real-world domain adaptation challenges in medical imaging. Published in Computers in Biology and Medicine, 2024."
 cover:

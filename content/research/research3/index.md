@@ -1,7 +1,7 @@
 ---
 title: "Lightweight Wavelet-Based Transformer for Image Super-Resolution" 
 date: 2022-11-11
-author: ["Jinye Ran and Zili Zhang"]
+author: ["J Ran and Z Zhang"]
 description: "This paper investigates a lightweight vision Transformer for signal image super-resolution and, for the first time, incorporates stationary wavelet transform into the modeling process to enhance its performance. Published in PRICAI, 2022." 
 summary: "This paper investigates a lightweight vision Transformer for signal image super-resolution and, for the first time, incorporates stationary wavelet transform into the modeling process to enhance its performance. Published in PRICAI, 2022." 
 cover:
