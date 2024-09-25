@@ -29,5 +29,12 @@
       <guid>http://localhost:1313/hugo-website/research/research3/</guid>
       <description>This paper investigates a lightweight vision Transformer for signal image super-resolution and, for the first time, incorporates stationary wavelet transform into the modeling process to enhance its performance. Published in PRICAI, 2022.</description>
     </item>
+    <item>
+      <title>Semantic Segmentation of Remote Sensing </title>
+      <link>http://localhost:1313/hugo-website/research/research4/</link>
+      <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-website/research/research4/</guid>
+      <description>This research project focuses on the practical application of semantic segmentation algorithms for crop yield estimation in remote sensing, specifically targeting the Pericarpium Zanthoxyli.</description>
+    </item>
   </channel>
 </rss>
