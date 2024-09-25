@@ -49,3 +49,13 @@
 .dark.list {
     background: var(--theme);
 }
+
+/* 新增：只对文章内容的段落应用两端对齐 */
+.post-content p {
+    text-align: justify;
+}
+
+/* 确保标题保持左对齐 */
+h1, h2, h3, h4, h5, h6 {
+    text-align: left;
+}
