@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on Welcome to Jinye&#39;s homepage</title>
+    <link>http://localhost:1313/hugo-website/projects/</link>
+    <description>Recent content in Projects on Welcome to Jinye&#39;s homepage</description>
+    <generator>Hugo -- 0.134.3</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 12 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/hugo-website/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Laboratory Safety Monitoring System</title>
+      <link>http://localhost:1313/hugo-website/projects/project2/</link>
+      <pubDate>Sun, 12 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-website/projects/project2/</guid>
+      <description>This project focuses on the development of a large-scale and systematic laboratory monitoring system, built upon a suite of advanced computer vision algorithms.</description>
+    </item>
+    <item>
+      <title>Pollutant Time Series Analysis </title>
+      <link>http://localhost:1313/hugo-website/projects/project1/</link>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-website/projects/project1/</guid>
+      <description>This project falls under the domain of data analysis, with a focus on uncovering key patterns within pollutant time-series data.</description>
+    </item>
+  </channel>
+</rss>
