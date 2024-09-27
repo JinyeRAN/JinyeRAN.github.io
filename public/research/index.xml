@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Papers on Welcome to Jinye&#39;s homepage</title>
-    <link>http://localhost:1313/hugo-website/research/</link>
+    <link>http://localhost:1313/research/</link>
     <description>Recent content in Papers on Welcome to Jinye&#39;s homepage</description>
     <generator>Hugo -- 0.134.3</generator>
     <language>en</language>
     <lastBuildDate>Wed, 04 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/hugo-website/research/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Method for Decoupling Diabetic Retinopathy Features in Ultra-Wide-Field Fundus Image</title>
-      <link>http://localhost:1313/hugo-website/research/research2/</link>
+      <link>http://localhost:1313/research/research2/</link>
       <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hugo-website/research/research2/</guid>
+      <guid>http://localhost:1313/research/research2/</guid>
       <description>This is an ongoing research project in which we have successfully disentangled class-relevant and class-irrelevant features from ultra-wide-field fundus images of diabetic retinopathy. The effectiveness of the disentangled features has been validated through feature swapping, feature generation, and downstream classification tasks. Partial results have been consolidated into the patent titled ‘A Method for Decoupling Diabetic Retinopathy Features in Ultra-Wide-Field Fundus Images’.</description>
     </item>
     <item>
       <title>Source-free Active Domain Adaptation for Diabetic Retinopathy Grading Based on Ultra-wide-field Fundus Images</title>
-      <link>http://localhost:1313/hugo-website/research/research1/</link>
+      <link>http://localhost:1313/research/research1/</link>
       <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hugo-website/research/research1/</guid>
+      <guid>http://localhost:1313/research/research1/</guid>
       <description>This paper proposes a novel source-free active domain adaptation approach, achieving state-of-the-art performance in addressing real-world domain adaptation challenges in medical imaging. Published in Computers in Biology and Medicine, 2024.</description>
     </item>
     <item>
       <title>Lightweight Wavelet-Based Transformer for Image Super-Resolution</title>
-      <link>http://localhost:1313/hugo-website/research/research3/</link>
+      <link>http://localhost:1313/research/research3/</link>
       <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hugo-website/research/research3/</guid>
+      <guid>http://localhost:1313/research/research3/</guid>
       <description>This paper investigates a lightweight vision Transformer for signal image super-resolution and, for the first time, incorporates stationary wavelet transform into the modeling process to enhance its performance. Published in PRICAI, 2022.</description>
     </item>
     <item>
       <title>Semantic Segmentation of Remote Sensing </title>
-      <link>http://localhost:1313/hugo-website/research/research4/</link>
+      <link>http://localhost:1313/research/research4/</link>
       <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hugo-website/research/research4/</guid>
+      <guid>http://localhost:1313/research/research4/</guid>
       <description>This research project focuses on the practical application of semantic segmentation algorithms for crop yield estimation in remote sensing, specifically targeting the Pericarpium Zanthoxyli.</description>
     </item>
   </channel>

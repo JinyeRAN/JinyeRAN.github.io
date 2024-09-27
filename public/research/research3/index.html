@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/hugo-website/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=hugo-website/livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -11,15 +11,15 @@
 <meta name="keywords" content="">
 <meta name="description" content="This paper investigates a lightweight vision Transformer for signal image super-resolution and, for the first time, incorporates stationary wavelet transform into the modeling process to enhance its performance. Published in PRICAI, 2022.">
 <meta name="author" content="J Ran and Z Zhang">
-<link rel="canonical" href="http://localhost:1313/hugo-website/research/research3/">
-<link crossorigin="anonymous" href="/hugo-website/assets/css/stylesheet.80342c136fe1b3ea0c9cf72955e681f2e5dd40262b87d00b8cc8cbebcadaad8f.css" integrity="sha256-gDQsE2/hs&#43;oMnPcpVeaB8uXdQCYrh9ALjMjL68rarY8=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/hugo-website/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/hugo-website/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/hugo-website/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/hugo-website/apple-touch-icon.png">
+<link rel="canonical" href="http://localhost:1313/research/research3/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.80342c136fe1b3ea0c9cf72955e681f2e5dd40262b87d00b8cc8cbebcadaad8f.css" integrity="sha256-gDQsE2/hs&#43;oMnPcpVeaB8uXdQCYrh9ALjMjL68rarY8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/hugo-website/research/research3/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/research/research3/">
 <noscript>
     <style>
         #theme-toggle,
@@ -31,13 +31,13 @@
 </noscript><meta property="og:title" content="Lightweight Wavelet-Based Transformer for Image Super-Resolution" />
 <meta property="og:description" content="This paper investigates a lightweight vision Transformer for signal image super-resolution and, for the first time, incorporates stationary wavelet transform into the modeling process to enhance its performance. Published in PRICAI, 2022." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/hugo-website/research/research3/" />
-<meta property="og:image" content="http://localhost:1313/hugo-website/vis.jpg" /><meta property="article:section" content="research" />
+<meta property="og:url" content="http://localhost:1313/research/research3/" />
+<meta property="og:image" content="http://localhost:1313/vis.jpg" /><meta property="article:section" content="research" />
 <meta property="article:published_time" content="2022-11-11T00:00:00+00:00" />
 <meta property="article:modified_time" content="2022-11-11T00:00:00+00:00" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="http://localhost:1313/hugo-website/vis.jpg" />
+<meta name="twitter:image" content="http://localhost:1313/vis.jpg" />
 <meta name="twitter:title" content="Lightweight Wavelet-Based Transformer for Image Super-Resolution"/>
 <meta name="twitter:description" content="This paper investigates a lightweight vision Transformer for signal image super-resolution and, for the first time, incorporates stationary wavelet transform into the modeling process to enhance its performance. Published in PRICAI, 2022."/>
 
@@ -51,13 +51,13 @@
       "@type": "ListItem",
       "position":  1 ,
       "name": "Papers",
-      "item": "http://localhost:1313/hugo-website/research/"
+      "item": "http://localhost:1313/research/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "Lightweight Wavelet-Based Transformer for Image Super-Resolution",
-      "item": "http://localhost:1313/hugo-website/research/research3/"
+      "item": "http://localhost:1313/research/research3/"
     }
   ]
 }
@@ -75,7 +75,7 @@
   "articleBody": " Download Paper Code and data Abstract Suﬀering from the ineﬃciency of deeper and wider networks, most remarkable super-resolution algorithms cannot be easily applied to real-world scenarios, especially resource-constrained devices. In this paper, to concentrate on fewer parameters and faster inference, an end-to-end Wavelet-based Transformer for Image Super-resolution (WTSR) is proposed. Diﬀerent from the existing approaches that directly map low-resolution (LR) images to high-resolution (HR) images, WTSR also implicitly mines the self-similarity of image patches by a lightweight Transformer on the wavelet domain, so as to balance the model per- formance and computational cost. More specifically, a two-dimensional stationary wavelet transform is designed for the mutual transformation between feature maps and wavelet coeﬃcients, which reduces the diﬃculty of mining self-similarity. For the wavelet coeﬃcients, a Lightweight Transformer Backbone (LTB) and a Wavelet Coeﬃcient Enhancement Backbone (WECB) are proposed to capture and model the long-term dependency between image patches. Furthermore, a Similarity Matching Block (SMB) is investigated to combine global self-similarity and local self-similarity in LTB. Experimental results show that our proposed approach can achieve better super-resolution performance on the multiple public benchmarks with less computational complexity\nFigure 1: The network of the proposed wavelet-based Transformer for super-resolution Figure 7: Subjective visual quality compared with other super-resolution networks Citation Ran, Jinye, and Zili Zhang. “Lightweight wavelet-based transformer for image super-resolution.” Pacific rim international conference on artificial intelligence. Cham: Springer Nature Switzerland, 2022.\n@inproceedings{ran2022lightweight, title={Lightweight wavelet-based transformer for image super-resolution}, author={Ran, Jinye and Zhang, Zili}, booktitle={Pacific rim international conference on artificial intelligence}, pages={368--382}, year={2022}, organization={Springer} } Related material Presentation slides ",
   "wordCount" : "257",
   "inLanguage": "en",
-  "image":"http://localhost:1313/hugo-website/vis.jpg","datePublished": "2022-11-11T00:00:00Z",
+  "image":"http://localhost:1313/vis.jpg","datePublished": "2022-11-11T00:00:00Z",
   "dateModified": "2022-11-11T00:00:00Z",
   "author":[{
     "@type": "Person",
@@ -83,14 +83,14 @@
   }],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/hugo-website/research/research3/"
+    "@id": "http://localhost:1313/research/research3/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Welcome to Jinye's homepage",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://localhost:1313/hugo-website/favicon.ico"
+      "url": "http://localhost:1313/favicon.ico"
     }
   }
 }
@@ -131,8 +131,8 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/hugo-website/" accesskey="h" title="Jinye Ran">
-                <img src="http://localhost:1313/hugo-website/favicon.ico" alt="" aria-label="logo"
+            <a href="http://localhost:1313/" accesskey="h" title="Jinye Ran">
+                <img src="http://localhost:1313/favicon.ico" alt="" aria-label="logo"
                     height="18"
                     width="18">Jinye Ran</a>
             <div class="logo-switches">
@@ -140,22 +140,22 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/hugo-website/cv.pdf" title="CV">
+                <a href="http://localhost:1313/cv.pdf" title="CV">
                     <span>CV</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/hugo-website/research/" title="Research">
+                <a href="http://localhost:1313/research/" title="Research">
                     <span>Research</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/hugo-website/projects/" title="Projects">
+                <a href="http://localhost:1313/projects/" title="Projects">
                     <span>Projects</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/hugo-website/publications/" title="Publications">
+                <a href="http://localhost:1313/publications/" title="Publications">
                     <span>Publications</span>
                 </a>
             </li>
@@ -221,7 +221,7 @@
     </main>
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="http://localhost:1313/hugo-website/">Welcome to Jinye&#39;s homepage</a></span> ·     
+    <span>&copy; 2024 <a href="http://localhost:1313/">Welcome to Jinye&#39;s homepage</a></span> ·     
     <span>
     Powered by 
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
