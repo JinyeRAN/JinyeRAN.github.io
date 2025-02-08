@@ -51,10 +51,7 @@ params:
     profileMode:
           enabled: true
           title: Jinye Ran
-          subtitle: "Hello! This is Jinye Ran. I have earned my Master’s degree in Computer Science and Technology from Southwest University and am applying to a PhD program. My research interests lie in the general area of machine learning, particularly in transfer learning and disentangled representation. I currently focus on applications in the continuous and unstructured data setting such as computer vision (e.g., feature disentanglement and domain adaptation) and healthcare (e.g., how to improve label efficiency and model interpretability).
-
-<br><br>
-Looking ahead, I aim to develop machine learning techniques that are more adaptable, efficient, and interpretable, applying my research to tackle real-world challenges in healthcare."
+          subtitle: "Hello! This is Jinye Ran. I have earned my Master’s degree in Computer Science and Technology from Southwest University and am applying to a PhD program. My research interests are centered around machine learning, with a specific focus on medical image processing, transfer learning, representation learning, and their applications in healthcare."
           imageUrl: "picture.jpg"
           imageWidth: 160
           imageHeight: 160
